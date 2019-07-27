@@ -1,1 +1,20 @@
 /* This is going to be used for any modified/custom styling */
+body{
+    background-color: rgb(#ffffff92);
+}
+.navbar-logo {
+    height: 50px;
+    width: 50px;
+}
+#groot {
+    width: 50%;
+    height: 50%;
+} 
+
+
+.container {
+    border: solid 1px black;
+}
+
+
+

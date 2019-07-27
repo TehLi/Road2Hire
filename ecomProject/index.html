@@ -7,14 +7,100 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="lib/css/styles.css">
+    <title>eComproject</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar">
+          <span class="navbar-toggler-icon">&#9776;</span>
+      </button>
+
+      <!-- Logo -->
+      <a class="navbar-logo" href="#"><img src="img/logo.png" class="img-fluid"></a>
+
+      <div class="collapse navbar-collapse" id="navigation-bar">
+        <!-- ml-auto= margin left auto -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#product">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <section id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Buy our Products!</h1>
+            <p>We sell beautiful trees and seeds.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 center">
+          <!-- <div class="col-md-6 header-right d-none d-md-block"> -->
+    <!-- SLIDER -->
+          <div class="slider">
+              <div>
+                <h3>Bonsai Trees</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#"><img src="img/brussel-s-bonsai-bonsai-trees-dt-7079gmj-64_1000.jpg"></a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Seeds</h3>
+                <ul class="list-unstyled">
+                  <li><a href=""><img src="img/91ObDYzkGHL._SX466_.jpg"></a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Fake Trees</h3>
+                <ul class="list-unstyled">
+                  <li><a href=""><img src="img/b90927ce-18a7-4227-b4f7-7a9df0102032_1.8724d9f91bed268ea8f0f750cfbfa6e2.jpeg"><a href=""></a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Toys</h3>
+                <ul class="list-unstyled">
+                  <li><a href=""><img src="img/toy-groot.jpg"><a href=""></a></li>
+                </ul>
+              </div>
+        </div>
+      </div>
+    </div>
+    <script src="lib/js/javascript.js"></script>
+
+    <!-- <div class="d-flex flex-row-reverse">
+        <p class="p-2">“The earth will not continue to offer its harvest, except with faithful stewardship. We cannot say we love the land and then take steps to destroy it for use by future generations.”</p>
+    </div> -->
+
+    <button type="button" class="btn btn-outline-dark">Chekc it Out!</button>
+
+    <!-- <div class="container">
+      <p class="p-2">I am GROOT.</p>
+    </div> -->
+    
+    <!-- <div class="float-md-right"> -->
+    <div class="d-flex flex-row-reverse">
+      <img id="groot" src="img/cute-groot.jpg">
+    </div>
   </body>
 </html>
