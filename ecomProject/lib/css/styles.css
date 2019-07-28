@@ -58,3 +58,12 @@ body{
     padding: 30px;
     border-radius: 10px;
 }
+
+
+
+
+.row {
+    border: solid 1px black;
+    padding: 25px;
+}
+
