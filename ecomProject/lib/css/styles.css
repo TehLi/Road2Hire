@@ -46,16 +46,14 @@
 
 
 
-#connect {
-    display: flex;
-    justify-content: center;
-}
-#form-container {
+#contact {
     margin: auto;
-    margin-top: 100px;
+}
+
+#form-container {
+
 
     background-color: rgba(0,0,0,0.2);
-    padding: 30px;
     border-radius: 10px;
 }
 #contact-body {
@@ -85,9 +83,8 @@ h3 {
 
 
 #footer {
-    background-color:#545454;
+    background-color:#807e7e;
     color:white;
-
 }
 #facebook {
     width: 50px;
@@ -98,3 +95,8 @@ h3 {
     width: 50px;
     height: 50px;
 }
+/* @media (max-width:800px){
+    #form-container{
+        margin-top: 0;
+    }
+} */
