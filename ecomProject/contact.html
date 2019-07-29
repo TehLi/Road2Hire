@@ -12,7 +12,7 @@
 
     <title>eComContact</title>
   </head>
-  <body>
+  <body id="contact-body">
     <nav class="navbar navbar-expand-lg bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar">
           <span class="navbar-toggler-icon">&#9776;</span>
@@ -31,28 +31,30 @@
       </div>
     </nav>
 
+    <section>
+      <div class="col-md-7 header-right d-none d-md-block" id="form-container">
+        <p id="connect">Let's Connnect</p>
+          <form>
+            <fieldset class="form-group">
+                <label class="sr-only">Name</label>
+                <input type="text" class="form-control" placeholder="your name">
+            </fieldset>
 
-    <div class="col-md-7 header-right d-none d-md-block" id="form-container">
-      <p id="connect">Let's Connnect</p>
-        <form>
-          <fieldset class="form-group">
+            <fieldset class="form-group">
               <label class="sr-only">Name</label>
-              <input type="text" class="form-control" placeholder="your name">
-          </fieldset>
+              <input type="email" class="form-control" placeholder="your email">
+            </fieldset>
 
-          <fieldset class="form-group">
-            <label class="sr-only">Name</label>
-            <input type="email" class="form-control" placeholder="your email">
-          </fieldset>
+            <div class="form-group">
+              <label class="sr-only">Name</label>
+              <textarea class="form-control" rows="5" placeholder="Comment"></textarea>
+            </div>
 
-          <div class="form-group">
-            <label class="sr-only">Name</label>
-            <textarea class="form-control" rows="5" placeholder="Comment"></textarea>
-          </div>
-
-          <button type="button" class="btn btn-success">Submit</button>
-        
-    </div>
+            <button type="button" class="btn btn-success">Submit</button>
+          
+      </div>
+    </section>
+          
 
       
     <!-- Optional JavaScript --> 

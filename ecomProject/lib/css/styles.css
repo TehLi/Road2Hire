@@ -1,6 +1,6 @@
 /* This is going to be used for any modified/custom styling */
-body{
-    background-color: rgb(#ffffff92);
+#home-body{
+    background-color: #ffffff;
     /* background-color: lightgray; */
 }
 .navbar-logo {
@@ -24,23 +24,23 @@ body{
     border: solid 1px black;
 } */
 
-#groot-quote {
+/* #groot-quote {
     position: absolute;
     top: 1100px;
     left: 200px;
 
     font-size: 50px;
     font-family: 'Playfair Display', serif;
-}
+} */
 
-#quote {
+/* #quote {
     position: absolute;
     bottom: 100px;
     left: 635px;
 
     font-size: 20px;
     font-family: 'Crimson Text', serif;
-}
+} */
 
 
 
@@ -58,6 +58,14 @@ body{
     padding: 30px;
     border-radius: 10px;
 }
+#contact-body {
+    background: url("/Users/tehlipeh/Documents/Road2Hire/ecomProject/img/red-leaf.jpg") center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
 
 
 
@@ -66,4 +74,5 @@ body{
     border: solid 1px black;
     padding: 25px;
 }
+
 
