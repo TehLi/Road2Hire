@@ -1,7 +1,6 @@
 /* This is going to be used for any modified/custom styling */
 #home-body{
     background-color: #ffffff;
-    /* background-color: lightgray; */
 }
 .navbar-logo {
     height: 50px;
@@ -49,15 +48,8 @@
 
 /* CONTACT */
 #form-container {
-
-
     background-color: rgba(0,0,0,0.2);
     border-radius: 10px;
-}
-#contact-body {
-    background: url("/Users/tehlipeh/Documents/Road2Hire/ecomProject/img/red-leaf.jpg") center no-repeat;
-    background-size: cover;
-    height: 100%;
 }
 
 
